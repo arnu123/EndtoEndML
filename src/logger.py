@@ -14,7 +14,7 @@ logging.basicConfig(
     format = '[%(asctime)s]%(lineno)d %(name)s - %(levelname)s - %(message)s' #this is the format of the content in the log file
 )
 
-if __name__ == "__main__":
-    logging.info("Logging started") # =>lineno is 18
+# if __name__ == "__main__":
+#     logging.info("Logging started") # =>lineno is 18
 
     
