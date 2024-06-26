@@ -1,6 +1,6 @@
 import sys  # sys module is used to access the exception information
 import logging
-import logger
+from src.logger import logging
 
 # Now we want to give separate message for every error
 def error_message_detail(error, error_detail:sys): # error_detail is the object of sys module
